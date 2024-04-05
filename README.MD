@@ -2,6 +2,10 @@
 
 Ele divide-se em dois repositórios diferentes, um contendo o Backend, que é o principal e que também é o repositório em questão; e o outro, contendo o frontend.
 
+==Link para o repositório do Frontend==
+
+    https://github.com/prompty001/frontend-desafio
+
 ## Repositório 1 - Backend
 
 - Foi utilizada a linguagem Java, como requisitado. O framework spring boot foi também utilizado para o CRUD.
