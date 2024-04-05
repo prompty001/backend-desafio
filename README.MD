@@ -1,4 +1,4 @@
-##### O projeto do desafio divide-se em dois repositórios diferentes, um contendo o Backend (exatamente esse) e o outro, contendo o 
+### O projeto do desafio divide-se em dois repositórios diferentes, um contendo o Backend (exatamente esse) e o outro, contendo o 
 
 
 ## Repositório 1 - Backend
