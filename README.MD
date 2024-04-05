@@ -15,7 +15,7 @@ Se não quiser utilizar O Postman, por exemplo, pode fazer as requisições util
 
 ### Criando um cliente
 
-  curl -X POST localhost:8080/costumers -H "Content-Type: application/json" -d '{"name":"Zed", "cpf":"12345678911", "birthday":"2000-01-01"}'
+    curl -X POST localhost:8080/costumers -H "Content-Type: application/json" -d '{"name":"Zed", "cpf":"12345678911", "birthday":"2000-01-01"}'
 
 ### Exibindo todos os clientes cadastrados
 
