@@ -13,18 +13,18 @@ Ele divide-se em dois repositórios diferentes, um contendo o Backend, que é o 
 Ao inicializar o projeto para testá-lo, é necessário antes setar o IP da sua máquina. Para isso, basta deletar as linhas 11 e 12 do arquivo `application.properties`.
 Se não quiser utilizar O Postman, por exemplo, pode fazer as requisições utilizando o bom e velho Curl.
 
-#### Criando um cliente
+### Criando um cliente
 
   curl -X POST localhost:8080/costumers -H "Content-Type: application/json" -d '{"name":"Zed", "cpf":"12345678911", "birthday":"2000-01-01"}'
 
-#### Exibindo todos os clientes cadastrados
+### Exibindo todos os clientes cadastrados
 
   curl localhost:8080/costumers
 
-#### Alterando os dados de um determinado cliente
+### Alterando os dados de um determinado cliente
 
   curl -X PUT localhost:8080/costumers/<id_costumer> -H "Content-Type: application/json" -d '{"name":"ZedAlterado", "cpf":"12345678911", "birthday":"2000-01-01"}'
 
-#### Deletando um cliente
+### Deletando um cliente
 
   curl -X DELETE localhost:8080/costumers/<id_costumer>
