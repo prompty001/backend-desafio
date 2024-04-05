@@ -19,12 +19,12 @@ Se não quiser utilizar O Postman, por exemplo, pode fazer as requisições util
 
 ### Exibindo todos os clientes cadastrados
 
-  curl localhost:8080/costumers
+    curl localhost:8080/costumers
 
 ### Alterando os dados de um determinado cliente
 
-  curl -X PUT localhost:8080/costumers/<id_costumer> -H "Content-Type: application/json" -d '{"name":"ZedAlterado", "cpf":"12345678911", "birthday":"2000-01-01"}'
+    curl -X PUT localhost:8080/costumers/<id_costumer> -H "Content-Type: application/json" -d '{"name":"ZedAlterado", "cpf":"12345678911", "birthday":"2000-01-01"}'
 
 ### Deletando um cliente
 
-  curl -X DELETE localhost:8080/costumers/<id_costumer>
+    curl -X DELETE localhost:8080/costumers/<id_costumer>
